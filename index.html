@@ -5,7 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Profile card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,9 +19,12 @@
   </style>
 </head>
 <body>
+  <div class="background">
+   <!--  <img class="top" src="images/bg-pattern-top.svg" alt="">
+    <img class="bottom" src="images/bg-pattern-bottom.svg" alt=""> -->
+</div>
   <div class="container">
     <header>
-
     </header>
     <figure>
       <img src="images/image-victor.jpg" alt="picture of victor">
@@ -29,11 +36,9 @@
       </section>
       <hr>
       <section class="numbers">
-        <ul>
-          <li>80K <span>Followers</span></li>
-          <li>803K <span>Likes</span></li>
-          <li>1.4K <span>Photos</span></li>
-        </ul>         
+          <p>80K <span>Followers</span></p>
+          <p>803K <span>Likes</span></p>
+          <p>1.4K <span>Photos</span></p>       
       </section>
     </main>
   </div>
